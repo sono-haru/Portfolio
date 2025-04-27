@@ -28,10 +28,12 @@ function Home() {
       <Section 
         id="profileSection"
         sectionTitle="プロフィール"
-        sectionText="水戸情報ITクリエイター専門学校2年の薗部春樹です。"
-        imgUrl=""
+        sectionText="水戸情報ITクリエイター専門学校 2年の薗部春樹です。"
+        imgUrl="/profile.jpg"
         alt="プロフィール画像"
         detailUrl="/profileDetail"
+        imgW={350}
+        imgH={250}
       />
 
       <Section 
@@ -41,6 +43,8 @@ function Home() {
         imgUrl="/studySection.jpg"
         alt="クイズアプリ画像"
         detailUrl="/studyDetail"
+        imgW={400}
+        imgH={350}
         reverse={true}
       />
 

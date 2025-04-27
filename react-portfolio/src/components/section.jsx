@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 
-const Section = ({ id, sectionTitle, sectionText, detailUrl, imgUrl, alt, reverse = false }) => {
+const Section = ({ id, sectionTitle, sectionText, detailUrl, imgUrl, alt, imgW, imgH, reverse = false }) => {
   const textRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -34,8 +34,8 @@ const Section = ({ id, sectionTitle, sectionText, detailUrl, imgUrl, alt, revers
             <img
               src={imgUrl}
               alt={alt}
-              width="400"
-              height="350"
+              width={imgW}
+              height={imgH}
               className="rounded-lg"
               style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
             />
