@@ -1,3 +1,5 @@
+import '../App.css';
+
 const Header=()=>{
     return(
         <>
@@ -6,9 +8,10 @@ const Header=()=>{
                     <a href="/" className='text-3xl mb-4 md:mb-0 font-bold'>Portfolio</a>
 
                     <nav className='md:ml-auto font-kiwi'>
-                        <a href="#profileSection" className='mr-5 hover:text-blue-300 transition-colors duration-200'>プロフィール</a>
-                        <a href="#studySection" className='mr-5 hover:text-blue-300 transition-colors duration-200'>学習内容</a>
-                        <a href="#hobbySection" className='mr-5 hover:text-blue-300 transition-colors duration-200'>趣味</a>
+                        <a href="#profileSection" className='mr-5 transition-colors duration-200 text_hover'>プロフィール</a>
+                        <a href="#studySection" className='mr-5 transition-colors duration-200 text_hover'>学習内容</a>
+                        <a href="#hobbySection" className='mr-5 transition-colors duration-200 text_hover'>趣味</a>
+                        <a href="#contact" className='mr-5 transition-colors duration-200 text_hover'>お問い合わせ</a>
                     </nav>
 
                 </div>

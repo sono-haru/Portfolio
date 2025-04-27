@@ -16,15 +16,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='container flex justify-center mx-auto px-10 bg-blue-100 py-4'>
-        <div className=''>
-            <p>@2025 HARUKI SONOBE</p>
-        </div>
-
-        <div className='ml-10'>
-            <a href="">t1</a>
-            <a href="">t2</a>
-            <a href="">t3</a>
+    <div className='container flex justify-center mx-auto px-10 bg-[#8FB0A9] text-[#FEFBF4] py-4'>
+        <div>
+        <p className='text-center'>@ 2025 Haruki Sonobe</p>
         </div>
     </div>
   )

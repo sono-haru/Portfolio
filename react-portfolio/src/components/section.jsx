@@ -24,37 +24,40 @@ const Section = ({ id, sectionTitle, sectionText, detailUrl, imgUrl, alt, revers
   
 
   return (
-    <div id={id} className="mt-24 max-w-full px-40">
-      <p className="text-center text-2xl mb-16">~ {sectionTitle} ~</p>
-      <div className={`flex justify-between items-center ${reverse ? 'flex-row-reverse' : ''}`}>
-        
-        <div data-aos={reverse ? 'fade-left' : 'fade-right'}>
-          <img
-            src={imgUrl}
-            alt={alt}
-            width="400"
-            height="350"
-            className="rounded-lg"
-            style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
-          />
-        </div>
+    <>
+      <div id={id} className="mt-10"></div>
+      <div className="mt-24 max-w-full px-40">
+        <p className="text-center text-2xl mb-16">~ {sectionTitle} ~</p>
+        <div className={`flex justify-between items-center ${reverse ? 'flex-row-reverse' : ''}`}>
+          
+          <div data-aos={reverse ? 'fade-left' : 'fade-right'}>
+            <img
+              src={imgUrl}
+              alt={alt}
+              width="400"
+              height="350"
+              className="rounded-lg"
+              style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+            />
+          </div>
 
-        {/* テキスト：スクロール表示でopacity変更 */}
-        <div
-          ref={textRef}
-          className={`fade-in ${isVisible ? 'visible' : ''}`}
-        >
-          <p className="mb-2">{sectionText}</p>
-          <Link
-            to={detailUrl}
-            className="text-[12px] bg-[#A9EED8] rounded-lg text-white p-1 px-3 hover:opacity-80 transition-opacity duration-300"
-            style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+          {/* テキスト：スクロール表示でopacity変更 */}
+          <div
+            ref={textRef}
+            className={`fade-in ${isVisible ? 'visible' : ''}`}
           >
-            詳しく見る
-          </Link>
+            <p className="mb-2">{sectionText}</p>
+            <Link
+              to={detailUrl}
+              className="text-[12px] bg-[#D88B62] rounded-lg text-white py-1 px-3 hover:opacity-80 transition-opacity duration-300"
+              style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+            >
+              詳しく見る
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

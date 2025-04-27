@@ -51,7 +51,7 @@ function Home() {
         alt="趣味画像"
         detailUrl="/hobbyDetail"
       />
-      <Contact></Contact>
+      <Contact id="contact"></Contact>
       <Footer />
     </>
   )
