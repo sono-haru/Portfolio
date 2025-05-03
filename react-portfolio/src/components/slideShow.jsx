@@ -13,7 +13,7 @@ const SlideShow = () => {
   };
 
   return (
-    <section className='mb-16 pt-20'>
+    <section className='mb-16 md:pt-20'>
       <div className='bg-[#8FB0A9] h-[300px] pt-12 pl-24'>
         <Slider {...settings} className="slide">
             <div><img src="slide1.jpg" alt="スライド1" className="rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"/></div>

@@ -5,6 +5,8 @@ import Footer from "./components/footer";
 import StudyDetail from "./studyDetail"; 
 import Contact from "./components/contact";
 import SlideShow from "./components/slideShow";
+import TopButton from "./components/topButton";
+
 
 
 import { useEffect } from 'react';
@@ -26,35 +28,43 @@ function Home() {
      <Header />
       <SlideShow />
       <Section 
+        id="studySection"
+        sectionTitle="作ったもの"
+        sectionText="授業の復習用のアプリを制作しました。"
+        sectionText2="制作者 : 薗部＆佐脇"
+        imgUrl="/studySection.jpg"
+        alt="クイズアプリ画像"
+        detailUrl="/studyDetail"
+        imgW={300}
+        imgH={250}
+      />
+
+      <Section 
         id="profileSection"
         sectionTitle="プロフィール"
-        sectionText="水戸情報ITクリエイター専門学校 2年の薗部春樹です。"
+        sectionText="水戸情報ITクリエイター専門学校2年の"
+        sectionText2="薗部春樹です。"
         imgUrl="/profile.jpg"
         alt="プロフィール画像"
         detailUrl="/profileDetail"
         imgW={350}
         imgH={250}
-      />
-
-      <Section 
-        id="studySection"
-        sectionTitle="作ったもの"
-        sectionText="授業の復習ができるアプリを制作しました。"
-        imgUrl="/studySection.jpg"
-        alt="クイズアプリ画像"
-        detailUrl="/studyDetail"
-        imgW={400}
-        imgH={350}
         reverse={true}
       />
 
       <Section 
         id="hobbySection"
         sectionTitle="趣味"
-        sectionText="趣味テスト"
+        sectionText="音楽鑑賞・古着・野球観戦・雑貨集め etc..."
+        sectionText2="レトロなものは大体好きです。"
+        imgUrl="/hobby.jpg"
         alt="趣味画像"
         detailUrl="/hobbyDetail"
+        imgW={350}
+        imgH={250}
       />
+
+      <TopButton />
       <Contact id="contact"></Contact>
       <Footer />
     </>
