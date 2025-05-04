@@ -18,36 +18,29 @@ const SlideShow = () => {
       <Slider {...settings} className="w-full max-w-6xl">
   <div className="flex justify-center">
     <img
-      src="slide1.jpg"
+      src="/slide1.jpg"
       alt="スライド1"
       className="mx-4 rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"
     />
   </div>
   <div className="flex justify-center">
     <img
-      src="slide2.jpg"
+      src="/slide2.jpg"
       alt="スライド2"
       className="mx-4 rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"
     />
   </div>
   <div className="flex justify-center">
     <img
-      src="slide3.jpg"
+      src="/slide3.jpg"
       alt="スライド3"
       className="mx-4 rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"
     />
   </div>
   <div className="flex justify-center">
     <img
-      src="slide4.jpg"
+      src="/slide4.jpg"
       alt="スライド4"
-      className="mx-4 rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"
-    />
-  </div>
-  <div className="flex justify-center">
-    <img
-      src="slide5.jpg"
-      alt="スライド5"
       className="mx-4 rounded-xl border-4 border-[#FEFBF4] border-solid w-[200px] h-[200px]"
     />
   </div>
