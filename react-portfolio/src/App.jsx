@@ -6,6 +6,8 @@ import StudyDetail from "./studyDetail";
 import Contact from "./components/contact";
 import SlideShow from "./components/slideShow";
 import TopButton from "./components/topButton";
+import ProfileDetail from "./profileDetail";
+import HobbyDetail from "./hobbyDetail";
 
 
 
@@ -76,9 +78,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profileDetail" element={<profileDetail />} />
+        <Route path="/profileDetail" element={<ProfileDetail />} />
         <Route path="/studyDetail" element={<StudyDetail />} />
-        <Route path="/hobbyDetail" element={<hobbyDetail />} />
+        <Route path="/hobbyDetail" element={<HobbyDetail />} />
       </Routes>
     </BrowserRouter>
   );
