@@ -25,7 +25,7 @@ const Section = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUr
 
   return (
     <>
-      <div id={id} className="mt-10 scroll-mt-8"></div>
+      <div id={id} className="mt-10 scroll-mt-4 md:scroll-mt-[-12px]"></div>
       <div className="mt-16 md:mt-24 max-w-full px-4 md:px-40">
         <p className="text-center text-2xl mb-16">~ {sectionTitle} ~</p>
         <div className={`flex flex-col md:flex-row ${reverse ? 'md:flex-row-reverse' : ''} justify-center md:justify-center md:gap-20 md:items-center`}>

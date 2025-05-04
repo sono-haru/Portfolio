@@ -94,15 +94,16 @@ html, body {
 
 
 /* contactページ */
-
-.target{
-  animation: floating-y 2s ease-in-out infinite alternate-reverse;
-}
-@keyframes floating-y {
-  0% {
-    transform: translateY(-5%);
+@media (min-width: 768px) {
+  .target{
+    animation: floating-y 2s ease-in-out infinite alternate-reverse;
   }
-  100% {
-    transform: translateY(5%);
+  @keyframes floating-y {
+    0% {
+      transform: translateY(-5%);
+    }
+    100% {
+      transform: translateY(5%);
+    }
   }
 }
