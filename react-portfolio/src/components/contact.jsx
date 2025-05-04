@@ -17,7 +17,7 @@ const Contact = ({ id }) => {
           />
           <a
             href="https://www.instagram.com/ds._.nb"
-            className="target text-center bg-[#D66C52] py-3 md:py-4 px-8 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
+            className="text-center bg-[#D66C52] py-3 md:py-4 px-8 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
             style={{ textDecoration: 'none' }}
           >
             <p>Instagram</p>
@@ -34,7 +34,7 @@ const Contact = ({ id }) => {
           />
           <a
             href="mailto:mit2471549@stu.o-hara.ac.jp"
-            className="target text-center bg-[#4BA2A5] py-3 md:py-4 px-2 md:px-4 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[97%] transition-transform ease-in-out duration-200"
+            className="text-center bg-[#4BA2A5] py-3 md:py-4 px-2 md:px-4 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[97%] transition-transform ease-in-out duration-200"
             style={{ textDecoration: 'none' }}
           >
             <p>Email</p>
@@ -51,7 +51,7 @@ const Contact = ({ id }) => {
           />
           <a
             href="https://github.com/sono-haru"
-            className="target text-center bg-[#C2C852] py-3 md:py-4 px-8 mb-6 md:mb-0 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
+            className="text-center bg-[#C2C852] py-3 md:py-4 px-8 mb-6 md:mb-0 rounded-full w-full block hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
             style={{ textDecoration: 'none' }} 
           >
             <p>GitHub</p>

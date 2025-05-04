@@ -14,73 +14,18 @@ html, body {
 }
 
 
-/* header用 */
-:root {
-  --color-text: #3b82f6; /* 好きな色でOK。これはTailwindで言う blue-500 */
+// CSS
+
+.slick-slide {
+  height: auto;
+  transform: scale(.70); 
+  transition: opacity .5s, transform .5s; 
+  width: 100%;
 }
 
-.text_hover {
-  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
-
-  background-image: linear-gradient(
-    90deg,
-    var(--color-text) 0%,
-    var(--color-text) 50%,
-    transparent 50%,
-    transparent 100%
-  );
-  background-size: 0% 4px;
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  padding-bottom: 2px;
-  transition: background-size 0.3s ease;
-}
-
-@media (any-hover: hover) {
-  .text_hover:hover {
-    background-size: 200% 4px;
-    animation-name: borderAnimation;
-    animation-duration: 0.75s;
-    animation-timing-function: var(--ease-in-out-quart);
-    animation-iteration-count: 1; /* ← ここ！1回だけにする */
-    animation-fill-mode: forwards; /* ← アニメ後、最後の状態をキープ */
-  }
-}
-
-@keyframes borderAnimation {
-  0% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: -100% 100%;
-  }
-}
-.text_hover {
-  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
-
-  background-image: linear-gradient(
-    90deg,
-    var(--color-text) 0%,
-    var(--color-text) 50%,
-    transparent 50%,
-    transparent 100%
-  );
-  background-size: 0% 4px;
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  padding-bottom: 2px;
-  transition: background-size 0.6s ease;
-}
-
-@media (any-hover: hover) {
-  .text_hover:hover {
-    background-size: 200% 2px;
-    animation-name: borderAnimation;
-    animation-duration: 0.75s;
-    animation-timing-function: var(--ease-in-out-quart);
-    animation-iteration-count: 1; /* ← ここ！1回だけにする */
-    animation-fill-mode: forwards; /* ← アニメ後、最後の状態をキープ */
-  }
+/* 中央のスライド */
+.slick-center {
+  transform: scale(1);
 }
 
 @keyframes borderAnimation {
@@ -94,7 +39,7 @@ html, body {
 
 
 /* contactページ */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .target{
     animation: floating-y 2s ease-in-out infinite alternate-reverse;
   }
@@ -106,4 +51,4 @@ html, body {
       transform: translateY(5%);
     }
   }
-}
+} */

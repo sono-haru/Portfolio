@@ -25,7 +25,7 @@ const TopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-20 right-10 py-5 px-6 rounded-full text-xl text-[#FEFBF4] bg-[#8FB0A9] shadow-md transition-opacity duration-500 z-50 ${
+      className={`fixed bottom-20 right-10 py-5 px-6 rounded-full text-xl text-[#FEFBF4] bg-[#8FB0A9] shadow-md transition-opacity duration-500 z-50 hover:opacity-95 hover:scale-[99%] active:scale-[97%] ${
         showButton ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
       }`}
     >
