@@ -48,7 +48,7 @@ const Section = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUr
 
             <Link
               to={detailUrl}
-              className="text-center text-[8px] md:text-[12px] bg-[#DF8472] rounded-lg text-white py-1 px-3 hover:opacity-80 transition-opacity duration-300"
+              className="text-center text-[8px] md:text-[12px] bg-[#DF8472] rounded-lg text-white py-1 px-3 hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
               style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
             >
               詳しく見る

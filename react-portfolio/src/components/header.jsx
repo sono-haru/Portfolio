@@ -11,7 +11,7 @@ const Header=()=>{
                         <a href="#studySection" className='mr-5 transition-colors duration-200 text_hover'>作ったもの</a>
                         <a href="#profileSection" className='mr-5 transition-colors duration-200 text_hover'>プロフィール</a>
                         <a href="#hobbySection" className='mr-5 transition-colors duration-200 text_hover'>趣味</a>
-                        <a href="#contact" className='mr-5 transition-colors duration-200 text_hover'>お問い合わせ</a>
+                        <a href="#contact" className='transition-colors duration-200 text_hover'>お問い合わせ</a>
                     </nav>
 
                 </div>
