@@ -16,7 +16,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='container flex justify-center bg-[#8FB0A9] text-[#FEFBF4] py-4'>
+    <div className='container flex justify-center mx-auto bg-[#8FB0A9] text-[#FEFBF4] py-4'>
         <div>
         <p className='text-center'>@ 2025 Haruki Sonobe</p>
         </div>
