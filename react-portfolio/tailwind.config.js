@@ -4,6 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    {
+      pattern: /border-\[#.*\]/, 
+    },
+  ],
   theme: {
     extend: {
       fontFamily: {
