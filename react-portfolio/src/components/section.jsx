@@ -39,20 +39,22 @@ const Section = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUr
             />
           </div>
 
-          <div
-            ref={textRef}
-            className={`md:px-0 px-20 mt-4 md:mt-0 text-[10px] md:text-base text-left fade-in ${isVisible ? 'visible' : ''}`}
-          >
-            <p className="mb-1 md:px-0">{sectionText}</p>
-            <p className="mb-2 md:px-0">{sectionText2}</p>
-
-            <Link
-              to={detailUrl}
-              className="text-center text-[8px] md:text-[12px] bg-[#DF8472] rounded-lg text-white py-1 px-3 hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
-              style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+          <div className="flex justify-center">
+            <div
+              ref={textRef}
+              className={`md:px-0 px-10 mt-4 md:mt-0 text-[12px] md:text-base text-left fade-in ${isVisible ? 'visible' : ''}`}
             >
-              詳しく見る
-            </Link>
+              <p className="mb-1 md:px-0">{sectionText}</p>
+              <p className="mb-2 md:px-0">{sectionText2}</p>
+
+              <Link
+                to={detailUrl}
+                className="text-center text-[10px] md:text-[12px] bg-[#DF8472] rounded-lg text-white py-1 px-3 hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200"
+                style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+              >
+                詳しく見る
+              </Link>
+            </div>
           </div>
         </div>
 
