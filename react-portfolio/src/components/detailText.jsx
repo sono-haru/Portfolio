@@ -1,9 +1,8 @@
 import React from 'react';
 
-function DetailText({ title, text, borderColor }) {
+function DetailText({ text }) {
   return (
-    <div className="flex flex-col items-center justify-center text-center gap-2">
-      <p className={`inline-block border-b border-[${borderColor}]`}>{title}</p>
+    <div className="flex flex-col md:flex-row items-start justify-start gap-2 w-full">
       <p>{text}</p>
     </div>
   );
