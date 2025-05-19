@@ -12,7 +12,7 @@ function StudyDetail() {
                 <div className="md:pt-20 text-center">
                     <div className="border-b border-[#8FB0A9]"></div>
                     <p className="inline-block rounded-full py-4 px-8 text-lg">~ SonoQuizについて ~</p>
-                    <div className="md:mt-6 flex justify-evenly max-w-full px-4 md:px-60">
+                    <div className="flex justify-evenly max-w-full px-4 md:px-60">
                         <img src="/k.svg" alt="" className="hidden md:block"/>
                         <img src="/k2.svg" alt="" className="hidden md:block"/>
                         <img src="/quiz-icon.png" alt="" className="rounded-lg border-2 w-20 md:w-24"/>
