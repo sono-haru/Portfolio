@@ -6,7 +6,7 @@ const Contact = ({ id }) => {
       <div id={id} className="mt-10"></div>
       <p className='text-center mt-24 text-2xl'>~ お問い合わせ ~</p>
 
-      <div className='container my-20 md:my-24 max-w-full px-20 md:px-40 flex flex-col md:flex-row justify-center items-center gap-14 md:gap-20 text-[#FEFBF4]'>
+      <div className='container mt-20 mb-14 md:my-24 max-w-full px-20 md:px-40 flex flex-col md:flex-row justify-center items-center gap-14 md:gap-20 text-[#FEFBF4]'>
 
         {/* Instagram */}
         <div className="relative w-full md:w-1/4 flex justify-center">
