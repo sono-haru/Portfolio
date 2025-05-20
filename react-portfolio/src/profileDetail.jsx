@@ -1,20 +1,18 @@
-import DetailText from "./components/detailText";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import ProfileSection from  "./components/profileSection";
 import TopButton from "./components/topButton";
 
-
 const ProfileDetail = () => {
     return(
       <>
         <Header/>
-        <div className="border border-green-200"></div>
-        <div className="pt-4 md:pt-32 mb-16 text-center">
+        <div className="border-b border-[#8FB0A9] mb-4 pt-4 md:pt-24"></div>
+        <div className="mb-6 text-center">
           <ProfileSection 
             title="自己紹介" 
             titleBg="#D66C52" 
-            imgSrc="20250304_064312457_iOS" 
+            imgSrc="Rectangle 29" 
             text={[
               "薗部春樹",
               "2006年3月20日生まれ",
@@ -26,7 +24,7 @@ const ProfileDetail = () => {
           <ProfileSection 
             title="学校活動" 
             titleBg="#4BA2A5" 
-            imgSrc="20250304_064312457_iOS" 
+            imgSrc="profile2" 
             text={[
               "オープンキャンパスアルバイト",
               "スポーツフェスティバル実行委員",
@@ -52,8 +50,8 @@ const ProfileDetail = () => {
 
           <ProfileSection 
             title="今後学びたい言語・ツール" 
-            titleBg="#D66C52" 
-            imgSrc="skill" 
+            titleBg="#EC9C78" 
+            imgSrc="skill2" 
             text={[
               "PHP・Laravel",
               "Flutter・Kotlin・Swift",

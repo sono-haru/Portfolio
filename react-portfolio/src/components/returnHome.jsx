@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ReturnTop() {
+function ReturnHome() {
   return (
     <div className="flex justify-center">
       <a
@@ -13,4 +13,4 @@ function ReturnTop() {
   )
 }
 
-export default ReturnTop
+export default ReturnHome
