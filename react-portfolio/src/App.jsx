@@ -8,7 +8,7 @@ import SlideShow from "./components/slideShow";
 import TopButton from "./components/topButton";
 import ProfileDetail from "./profileDetail";
 import HobbyDetail from "./hobbyDetail";
-
+import ScrollDefault from "./components/scrollDefault";
 
 
 import { useEffect } from 'react';
@@ -76,6 +76,7 @@ function Home() {
 function App() {
   return (
     <BrowserRouter>
+    <ScrollDefault/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profileDetail" element={<ProfileDetail />} />
