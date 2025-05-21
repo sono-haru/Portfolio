@@ -26,6 +26,8 @@ const SlideInImage = ({ src, alt = "", direction = "right", className = "" }) =>
         src={src}
         alt={alt}
         className="border-2 border-[#826063] w-64 md:w-80 rounded-xl shadow-md"
+        style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
+
       />
     </div>
   );

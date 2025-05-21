@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 
-const Section = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUrl, alt,  reverse = false }) => {
+const MainSection = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUrl, alt,  reverse = false }) => {
   const textRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -63,4 +63,4 @@ const Section = ({ id, sectionTitle, sectionText, sectionText2, detailUrl, imgUr
   );
 };
 
-export default Section;
+export default MainSection;

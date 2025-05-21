@@ -1,6 +1,6 @@
 import Footer from "./components/footer";
 import Header from "./components/header";
-import ProfileSection from  "./components/profileSection";
+import DetailSection from  "./components/detailSection";
 import TopButton from "./components/topButton";
 
 const ProfileDetail = () => {
@@ -9,7 +9,7 @@ const ProfileDetail = () => {
         <Header/>
         <div className="border-b border-[#8FB0A9] mb-4 pt-4 md:pt-24"></div>
         <div className="mb-6 text-center">
-          <ProfileSection 
+          <DetailSection 
             title="自己紹介" 
             titleBg="#D66C52" 
             imgSrc="Rectangle 29" 
@@ -21,7 +21,7 @@ const ProfileDetail = () => {
             ]}
             />
           
-          <ProfileSection 
+          <DetailSection 
             title="学校活動" 
             titleBg="#4BA2A5" 
             imgSrc="profile2" 
@@ -34,7 +34,7 @@ const ProfileDetail = () => {
             reverse={true}
             />
 
-          <ProfileSection 
+          <DetailSection 
             title="学んだ言語・ツール" 
             titleBg="#C2C852" 
             imgSrc="skill" 
@@ -48,7 +48,7 @@ const ProfileDetail = () => {
             ]}
             />
 
-          <ProfileSection 
+          <DetailSection 
             title="今後学びたい言語・ツール" 
             titleBg="#EC9C78" 
             imgSrc="skill2" 

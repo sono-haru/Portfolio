@@ -1,5 +1,5 @@
 import './App.css'
-import Section from "./components/section";
+import MainSection from "./components/mainSection";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import StudyDetail from "./studyDetail"; 
@@ -29,7 +29,7 @@ function Home() {
     <>
      <Header />
       <SlideShow />
-      <Section 
+      <MainSection 
         id="studySection"
         sectionTitle="作ったもの"
         sectionText="授業の復習用のアプリを制作しました。"
@@ -41,7 +41,7 @@ function Home() {
         imgH={250}
       />
 
-      <Section 
+      <MainSection 
         id="profileSection"
         sectionTitle="プロフィール"
         sectionText="水戸情報ITクリエイター専門学校2年の"
@@ -54,7 +54,7 @@ function Home() {
         reverse={true}
       />
 
-      <Section 
+      <MainSection 
         id="hobbySection"
         sectionTitle="趣味"
         sectionText="音楽鑑賞・古着・野球観戦・雑貨集め etc..."
