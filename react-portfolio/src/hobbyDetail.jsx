@@ -15,12 +15,12 @@ const HobbyDetail = () => {
             titleBg="#D66C52" 
             imgSrc="music" 
             text={[
-              "WANDS (Pieace of My soul)",
-              "L⇔R (Lefty in the Right)",
-              "ZARD (TODAY IS ANOTHER DAY)",
-              "THE BEATLES (RUBBER SOUL)",
-              "JUDY AND MARY (MIRACLE DIVING)",
-              "Mr.Children (Atomic Heart)"
+              "WANDS : (PIECE OF MY SOUL)",
+              "L⇔R : (Lefty in the Right)",
+              "ZARD : (TODAY IS ANOTHER DAY)",
+              "THE BEATLES : (RUBBER SOUL)",
+              "JUDY AND MARY : (MIRACLE DIVING)",
+              "Mr.Children : (Atomic Heart)"
             ]}
             />
           
