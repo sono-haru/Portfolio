@@ -51,18 +51,18 @@ const SlideInImage = ({ src, alt = "", comment = "", direction = "right", classN
           }`}
         >
           <div
-            className={`relative bg-white p-10 rounded-xl shadow-lg max-w-md w-[90%] transform transition-all duration-300 ${
+            className={`relative bg-white px-4 py-12 md:p-10 rounded-xl shadow-lg max-w-md w-[90%] transform transition-all duration-300 ${
               showModal ? "scale-100 opacity-100" : "scale-90 opacity-0"
             }`}
           >
             <button
               onClick={closeModal}
-              className="absolute top-2 right-2 bg-red-400 py-1 px-3 rounded-full text-white text-xl font-bold hover:opacity-95 hover:scale-[96%] active:scale-[82%] transition-transform ease-in-out duration-200"
+              className="absolute top-1 right-2 bg-red-400 py-1 px-3 rounded-full text-white text-xl font-bold hover:opacity-95 hover:scale-[96%] active:scale-[82%] transition-transform ease-in-out duration-200"
             >
               ×
             </button>
             <img src={src} alt={alt} className="rounded-lg w-full mb-4 border-2 border-[#826063]" />
-            <p className="text-center text-gray-700 text-[10px] md:text-sm">{comment}</p>
+            <p className="text-center text-gray-700 text-[12px] md:text-sm">{comment}</p>
           </div>
         </div>
       )}
