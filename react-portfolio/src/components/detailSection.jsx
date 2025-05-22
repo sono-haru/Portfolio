@@ -2,7 +2,7 @@ import React from 'react';
 import SlideInImage from './slideInImage';
 import FadeInText from './fadeInText';
 
-function DetailSection({ title, titleBg, imgSrc, text, reverse }) {
+function DetailSection({ title, titleBg, imgSrc, text, reverse, comment }) {
   return (
     <>
       <p
@@ -18,7 +18,8 @@ function DetailSection({ title, titleBg, imgSrc, text, reverse }) {
         <SlideInImage
           src={`/${imgSrc}.jpg`}
           alt={`${title}の画像`}
-          direction={reverse ? "left" : "right"}          
+          direction={reverse ? "left" : "right"}   
+          comment={comment}       
         />
         <FadeInText>
           <div className="text-start border border-black rounded-3xl my-6 py-6 px-6 md:px-12 text-sm md:text-base space-y-2">

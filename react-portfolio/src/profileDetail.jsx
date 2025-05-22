@@ -19,6 +19,7 @@ const ProfileDetail = () => {
               "水戸生まれ水戸育ち",
               "血液型B型"
             ]}
+            comment="使える画像がありませんでした..."
             />
           
           <DetailSection 
@@ -32,6 +33,7 @@ const ProfileDetail = () => {
               "入学式在校生実行委員"
             ]}
             reverse={true}
+            comment="卒業記念パーティーでの写真(佐脇・浅野・薗部・鴨川)"
             />
 
           <DetailSection 
@@ -46,6 +48,7 @@ const ProfileDetail = () => {
               "HTML・CSS",
               "GitHub・Figma"
             ]}
+            comment="ReactやNext.jsは独学でしました。"
             />
 
           <DetailSection 
@@ -58,6 +61,8 @@ const ProfileDetail = () => {
               "Hono・Docker"
             ]}
             reverse={true}
+            comment="スマホアプリ制作がしてみたい!!"
+
             />
 
         </div>
