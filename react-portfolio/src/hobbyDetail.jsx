@@ -22,6 +22,7 @@ const HobbyDetail = () => {
               "JUDY AND MARY : (MIRACLE DIVING)",
               "Mr.Children : (Atomic Heart)"
             ]}
+            comment="L⇔Rは日立市出身!!"
             />
           
           <DetailSection 
@@ -33,6 +34,7 @@ const HobbyDetail = () => {
               "特にアメリカン雑貨が好み。",
             ]}
             reverse={true}
+            comment="買いすぎて飾るところがなくなってきた..."
             />
 
           <DetailSection 
@@ -43,6 +45,7 @@ const HobbyDetail = () => {
               "GIANTのEscape Rをレトロ風に",
               "カスタムした自転車に乗っています。",
             ]}
+            comment="特徴的なので駐輪しておくとすぐにバレます"
             />
 
           <DetailSection 
@@ -54,6 +57,7 @@ const HobbyDetail = () => {
               "巨人ファンですが、その他11球団も好きです。",
             ]}
             reverse={true}
+            comment="今年は東京ドームで観戦したい!!"
             />
 
         </div>
