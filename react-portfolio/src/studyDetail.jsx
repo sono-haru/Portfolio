@@ -25,7 +25,7 @@ function StudyDetail() {
                 
                     <a
                         href="https://sonoquiz.jp/login"
-                        className="mt-6 inline-block bg-[#D98A66] text-[#FEFBF4] py-2 md:py-4 px-6 md:px-8 rounded-full mb-6 hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200 text-sm md:text-base text-center"
+                        className="md:mt-6 md:mb-6 inline-block bg-[#D98A66] text-[#FEFBF4] py-2 md:py-4 px-6 md:px-8 rounded-full hover:opacity-95 hover:scale-[99%] active:scale-[96%] transition-transform ease-in-out duration-200 text-sm md:text-base text-center"
                         style={{ boxShadow: '4px 4px 4px rgba(0, 0, 0, 0.2)' }}
 
                         >
