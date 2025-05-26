@@ -17,10 +17,10 @@ function StudyDetail() {
                         text={[
                         "制作期間 : 3ヶ月",
                         "制作者 : 薗部春樹＆佐脇翔也",
-                        "開発言語 : React・TypeScript",
+                        "開発言語 : Next.js・TypeScript",
                         "利用者数 : 20名弱"
                         ]}
-                        comment="特徴的なので駐輪しておくとすぐにバレます"
+                        comment="照山先生もやってるよ!!"
                         />
                 
                     <a
