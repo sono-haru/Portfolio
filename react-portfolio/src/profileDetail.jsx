@@ -44,7 +44,7 @@ const ProfileDetail = () => {
               "Python・Django",
               "JavaScript・TypeScript",
               "React・Next.js",
-              "Java",
+              "WebSocket・Java",
               "HTML・CSS",
               "GitHub・Figma"
             ]}
@@ -59,7 +59,7 @@ const ProfileDetail = () => {
               "PHP・Laravel",
               "Flutter・Kotlin・Swift",
               "Hono・Docker",
-              "WebSocket Node.js"
+              "Node.js"
             ]}
             reverse={true}
             comment="スマホアプリ制作がしてみたい!!"
