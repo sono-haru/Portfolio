@@ -25,7 +25,7 @@ const ProfileDetail = () => {
           <DetailSection 
             title="学校活動" 
             titleBg="#4BA2A5" 
-            imgSrc="profile2" 
+            imgSrc="profile1" 
             text={[
               "オープンキャンパスアルバイト",
               "スポーツフェスティバル実行委員",
@@ -33,10 +33,10 @@ const ProfileDetail = () => {
               "入学式在校生実行委員"
             ]}
             reverse={true}
-            comment="卒業記念パーティーでの写真(佐脇・浅野・薗部・鴨川)"
+            comment="卒業記念パーティー(照山先生・佐脇・浅野・薗部・鴨川)"
             />
 
-          <DetailSection 
+          <DetailSection
             title="学んだ言語・ツール" 
             titleBg="#C2C852" 
             imgSrc="skill" 
@@ -58,7 +58,8 @@ const ProfileDetail = () => {
             text={[
               "PHP・Laravel",
               "Flutter・Kotlin・Swift",
-              "Hono・Docker"
+              "Hono・Docker",
+              "WebSocket Node.js"
             ]}
             reverse={true}
             comment="スマホアプリ制作がしてみたい!!"

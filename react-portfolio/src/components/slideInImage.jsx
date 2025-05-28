@@ -62,7 +62,7 @@ const SlideInImage = ({ src, alt = "", comment = "", direction = "right", classN
               ×
             </button>
             <img src={src} alt={alt} className="rounded-lg w-full mb-4 border-2 border-[#826063]" />
-            <p className="text-center text-gray-700 text-[12px] md:text-sm">{comment}</p>
+            <p className="text-center text-gray-700 text-[11px] md:text-sm">{comment}</p>
           </div>
         </div>
       )}
